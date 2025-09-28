@@ -1,0 +1,14 @@
+package com.example.springweb.dto;
+
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.Data;
+
+@Data
+public class UserDto {
+
+	private String userName;
+	private String password;
+
+}
